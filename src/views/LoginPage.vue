@@ -27,7 +27,7 @@
 </script>
 
 <template>
-    <form class="m-10 p-10" @submit.prevent>
+    <form class="flex flex-col items-center justify-center min-h-screen" @submit.prevent>
         <div>
             <label for="username" class="block mb-2 font-bold">Username</label>
             <input id="username" v-model="username" type="text" placeholder="Username">
