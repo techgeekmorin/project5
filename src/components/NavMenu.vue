@@ -1,7 +1,7 @@
 <template>
-  <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/other">Other</RouterLink>
+  <nav class="bg-blue-800 h-20 items-center text-white">
+    <RouterLink :to="{name: 'Store'}">Store</RouterLink>
+    <RouterLink :to="{name: 'Cart'}">Cart</RouterLink>
   </nav>
 </template>
 
