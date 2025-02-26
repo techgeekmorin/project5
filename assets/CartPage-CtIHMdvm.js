@@ -1,0 +1,1 @@
+import{_ as t,c as s,a,o as n}from"./index-VyDqCTU7.js";const c={},r={class:"flex min-h-screen items-center justify-center"};function o(f,e){return n(),s("main",r,e[0]||(e[0]=[a("h1",{class:"text-6xl font-thin text-black"},"I'm The Cart Page",-1)]))}const l=t(c,[["render",o]]);export{l as default};
