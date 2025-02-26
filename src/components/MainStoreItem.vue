@@ -17,6 +17,7 @@
             <div class="p-4">
                 <p class="mb-2 font-extrabold text-blue-900">{{ itemName }}</p>
                 <p class="mb-3 font-normal text-slate-700">{{ itemCategory }}</p>
+                <button class="bg-green-500 mt-4 px-4 py-2 hover:bg-green-800 hover:text-white">Add to Cart</button>
             </div>
         </div>
     </RouterLink>    
