@@ -7,6 +7,7 @@ const { isAuthenticated, logout, user } = useAuth()
 
 <template>
   <nav class="bg-green-800 h-20 items-center text-white font-bold">
+    <RouterLink :to="{name: 'Home'}">Home</RouterLink>
     <RouterLink :to="{name: 'Store'}">Store</RouterLink>
     <RouterLink :to="{name: 'Cart'}">Cart</RouterLink>
 

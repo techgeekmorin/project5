@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
+import HomePage from '@/views/HomePage.vue'
 import StorePage from '@/views/StorePage.vue'
 import ItemDescPage from '@/views/ItemDescPage.vue'
 import AccountDetailsPage from './views/AccountDetailsPage.vue'
@@ -9,7 +10,8 @@ import { useAuth } from './composables/useAuth'
 const {isAuthenticated} = useAuth()
 
 const routes = [
-  { path: '/project5/', name: 'Store', component: StorePage },
+  { path: '/project5/', name: 'Home', component: HomePage },
+  { path: '/project5/Store', name: 'Store', component: StorePage },
   { path: '/project5/cart', name: 'Cart', component: () => import('@/views/CartPage.vue') },
   { path: '/project5/item/:name/:desc', name: 'itemDescPage', component: ItemDescPage },
   { path: '/project5/login', name: 'Login', component: LoginPage },
