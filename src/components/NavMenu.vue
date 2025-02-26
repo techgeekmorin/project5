@@ -1,7 +1,9 @@
 <template>
-  <nav class="bg-blue-800 h-20 items-center text-white">
+  <nav class="bg-green-800 h-20 items-center text-white">
     <RouterLink :to="{name: 'Store'}">Store</RouterLink>
     <RouterLink :to="{name: 'Cart'}">Cart</RouterLink>
+    <RouterLink :to="{name: 'Login'}">Login</RouterLink>
+    <RouterLink :to="{name: 'AccountDetails'}">Account Details</RouterLink>
   </nav>
 </template>
 
